@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: virtual.host.com
+    password: 123456
+netty:
+  redis:
+    enable: true
+  equipment:
+    enable: true
+    port: 8081
+    idle: 600
+
+logging:
+  level:
+    root: info
+    com.demo.netty: debug
